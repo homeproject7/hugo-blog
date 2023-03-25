@@ -6,9 +6,10 @@
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version = "0.2.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "This is my new Hugo FixIt site"
+description = "This is my new Home Project"
 # site keywords
-keywords = ["Hugo", "FixIt"]
+# keywords = ["Hugo", "FixIt"]
+keywords = ["家园工程", "Home Project"]
 # site default theme ["light", "dark", "auto"]
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
@@ -31,7 +32,7 @@ disableThemeInject = false
 # FixIt 0.2.0 | NEW App icon config
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Hugo FixIt Blog"
+  title = "家园工程"
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
@@ -86,14 +87,15 @@ disableThemeInject = false
   mobileMode = "auto"
   # FixIt 0.2.0 | NEW Header title config
   [header.title]
-    # URL of the LOGO
-    logo = "/fixit.min.svg"
+    # URL of the LOGO  标题栏
+    #logo = "/fixit.min.svg"
+    logo = ""
     # title name
-    name = "Hugo FixIt Blog"
+    name = "家园工程"
     # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
+    pre = "<i class='far fa-sun fa-fw' aria-hidden='true'></i>"
     # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
+    post = "<i class='far fa-moon fa-fw' aria-hidden='true'></i>"
     # FixIt 0.2.5 | NEW whether to use typeit animation for title name
     typeit = false
   # FixIt 0.2.12 | NEW Header subtitle config
@@ -116,7 +118,7 @@ disableThemeInject = false
   # FixIt 0.2.0 | NEW whether to show the author
   author = true
   # Site creation year
-  since = 2021
+  since = 2023
   # FixIt 0.2.14 | NEW whether to show total word count of site content
   wordCount = true
   # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
@@ -127,16 +129,17 @@ disableThemeInject = false
   license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   # FixIt 0.2.17 | CHANGED Site creation time
   [footer.siteTime]
-    enable = false
+    enable = true
     animate = true
     icon = "fa-solid fa-heartbeat"
-    pre = ""
-    value = "" # e.g. "2021-12-18T16:15:22+08:00"
+    pre = "博客已运行"
+    # original date time of blog
+    value = "2023-03-21T06:30:00+08:00" # e.g. "2021-12-18T16:15:22+08:00"
   # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
   [footer.order]
     powered = 0
     copyright = 0
-    statistics = 0
+    statistics = "first"
     visitor = 0
     beian = 0
 
@@ -166,7 +169,7 @@ disableThemeInject = false
 
 # FixIt 0.2.17 | NEW TagCloud config for tags page
 [tagcloud]
-  enable = false
+  enable = true
   min = 14 # Minimum font size in px
   max = 32 # Maximum font size in px
   peakCount = 10 # Maximum count of posts per tag
@@ -180,15 +183,16 @@ disableThemeInject = false
   [home.profile]
     enable = true
     # Gravatar Email for preferred avatar in home page
-    gravatarEmail = "xx@xx.com"
+    gravatarEmail = ""
     # URL of avatar shown in home page
-    avatarURL = ""
+    # home profile Avatar image 标记
+    avatarURL = "images/avatar.png"
     # FixIt 0.2.17 | NEW identifier of avatar menu link
-    avatarMenu = ""
+    avatarMenu = "about"
     # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
-    title = ""
+    title = "家园工程 Home Project"
     # subtitle shown in home page
-    subtitle = "This is my new Hugo FixIt site"
+    subtitle = "变得更好"
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
@@ -375,7 +379,7 @@ disableThemeInject = false
     maxShownLines = 10
   # FixIt 0.2.14 | NEW Post edit
   [page.edit]
-    enable = false
+    enable = true
     # FixIt 0.2.15 | CHANGED Link for fork & edit
     # url = "/edit/branch-name/subdirectory-name" # base on `params.gitRepo`
     # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # full url
@@ -398,14 +402,14 @@ disableThemeInject = false
     fullscreen = true
   # FixIt 0.2.17 | NEW Donate (Sponsor) settings
   [page.reward]
-    enable = false
-    animation = false
+    enable = true
+    animation = true
     # position relative to post footer, optional values: ["before", "after"]
     position = "after"
     # comment = "Buy me a coffee"
     [page.reward.ways]
-      # wechatpay = "/images/wechatpay.png"
-      # alipay = "/images/alipay.png"
+      wechatpay = "/images/wechatpay.png"
+      alipay = "/images/alipay.png"
       # paypal = "/images/paypal.png"
       # bitcoin = "/images/bitcoin.png"
   # FixIt 0.2.0 | CHANGED social share links in post page
@@ -633,9 +637,9 @@ disableThemeInject = false
 
 # FixIt 0.2.12 | NEW Busuanzi count
 [ibruce]
-  enable = false
+  enable = true
   # Enable in post meta
-  enablePost = false
+  enablePost = true
 
 # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu/360/Sogou
 [verification]
@@ -693,8 +697,8 @@ disableThemeInject = false
 
 # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
 [githubCorner]
-  enable = false
-  permalink = "https://github.com/hugo-fixit/FixIt"
+  enable = true
+  permalink = "https://github.com/homeproject7/homeproject7.github.io"
   title = "View source on GitHub"
   position = "right" # ["left", "right"]
 
@@ -708,11 +712,11 @@ disableThemeInject = false
 [backToTop]
   enable = true
   # Scroll percent label in b2t button
-  scrollpercent = false
+  scrollpercent = true
 
 # FixIt 0.2.16 | NEW Reading progress bar
 [readingProgress]
-  enable = false
+  enable = true
   # Available values: ["left", "right"]
   start = "left"
   # Available values: ["top", "bottom"]
