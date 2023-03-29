@@ -37,6 +37,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # See https://github.com/JamesIves/github-pages-deploy-action#configuration-
+          repository-name: homeproject7/homeproject7.github.io
           branch: gh-pages
           token: ${{ secrets.ACCESS_TOKEN }}
           folder: public
