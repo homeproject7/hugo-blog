@@ -38,6 +38,7 @@ jobs:
         with:
           # See https://github.com/JamesIves/github-pages-deploy-action#configuration-
           branch: gh-pages
+          token: ${{ secrets.ACCESS_TOKEN }}
           folder: public
           clean: true
           single-commit: true
