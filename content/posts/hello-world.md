@@ -1,6 +1,8 @@
 ---
 title: Hello World
 date: 2022-09-29T17:06:11+08:00
+draft: true
+
 tags:
 - hello
 - FixIt

@@ -1,19 +1,19 @@
 ---
-title: "Second_post"
-subtitle: ""
-date: 2023-03-23T11:57:44+08:00
-draft: false
+title: "Template_post_测试"
+subtitle: "sub 标题"
+date: 2023-03-21T11:57:44+08:00
+draft: true
 
-description: ""
-keywords: ""
-license: ""
+description: "我是描述 description"
+keywords: "我是keywords"
+license: "我是license"
 comment: false
 weight: 0
 
 tags:
-- draft
+- template
 categories:
-- draft
+- template_cate
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
