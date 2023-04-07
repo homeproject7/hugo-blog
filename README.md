@@ -1,6 +1,6 @@
 # Hugo FixIt Blog Template (Git)
 
-This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses Git submodule feature to load the theme.
+This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) feature to load the theme.
 
 It comes with a basic theme structure and configuration. GitHub action has been set up to deploy the theme to a public GitHub page automatically. Also, there's a cron job to update the theme automatically everyday.
 
@@ -25,7 +25,11 @@ It comes with a basic theme structure and configuration. GitHub action has been 
 
 ### Prerequisites
 
-Just install latest version of [Hugo(>= 0.89.0)](https://gohugo.io/installation/) for your OS (Windows, Linux, macOS).
+Just install latest version of [Hugo(>= 0.109.0)](https://gohugo.io/installation/) for your OS (Windows, Linux, macOS).
+
+### Clone Template
+
+Clone with your own repository url
 
 
 ### Clone Template
@@ -73,6 +77,4 @@ hugo
 
 For a complete quick start, see this [page](https://fixit.lruihao.cn/documentation/getting-started/).
 
----
-
-> This project was generated with [hugo-fixit-blog-git](https://github.com/hugo-fixit/hugo-fixit-blog-git). Documentation about the original structure can be found [here](https://github.com/hugo-fixit/hugo-fixit-blog-git#directory-structure).
+<!-- This project was generated with [hugo-fixit-blog-git](https://github.com/hugo-fixit/hugo-fixit-blog-git). Documentation about the original structure can be found [here](https://github.com/hugo-fixit/hugo-fixit-blog-git#directory-structure). -->

@@ -25,8 +25,7 @@ Head to the documentation page linked below for a complete guidence to get start
 
 ### Prerequisites
 
-Just install latest version of [Hugo(>= 0.89.0)](https://gohugo.io/installation/) for your OS (Windows, Linux, macOS).
-
+Just install latest version of [Hugo(>= 0.109.0)](https://gohugo.io/installation/) for your OS (Windows, Linux, macOS).
 
 ### Clone Template
 

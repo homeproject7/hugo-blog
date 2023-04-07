@@ -105,6 +105,12 @@ disableThemeInject = false
     # whether to use typeit animation for subtitle name
     typeit = false
 
+# FixIt 0.2.18 | NEW Breadcrumb config
+[breadcrumb]
+  enable = false
+  sticky = false
+  showHome = false
+
 # Footer config
 [footer]
   enable = true
@@ -408,6 +414,8 @@ disableThemeInject = false
     # position relative to post footer, optional values: ["before", "after"]
     position = "after"
     # comment = "Buy me a coffee"
+    # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
+    mode = "static"
     [page.reward.ways]
       wechatpay = "/images/wechatpay.png"
       alipay = "/images/alipay.png"
@@ -456,10 +464,20 @@ disableThemeInject = false
       sendBtn = ""
       editorTravel = true
       flatMode = "auto"
-      maxNesting = 3
       # FixIt 0.2.17 | CHANGED enable lightgallery support
       lightgallery = false
       locale = "" # FixIt 0.2.15 | NEW
+      # FixIt 0.2.18 | NEW
+      emoticons = ""
+      nestMax = 2
+      nestSort = "DATE_ASC" # ["DATE_ASC", "DATE_DESC", "VOTE_UP_DESC"]
+      vote = true
+      voteDown = false
+      uaBadge = true
+      listSort = true
+      imgUpload = true
+      preview = true
+      versionCheck = true
     # FixIt 0.1.1 | NEW Disqus comment config (https://disqus.com)
     [page.comment.disqus]
       enable = false
@@ -710,7 +728,6 @@ disableThemeInject = false
 # FixIt 0.2.14 | NEW Gravatar config
 [gravatar]
   # FixIt 0.2.18 | NEW Depends on the author's email, if the author's email is not set, the local avatar will be used
-  # set false，using local avatar
   enable = false
   # Gravatar host, default: "www.gravatar.com"
   host = "gravatar.loli.net" # ["cn.gravatar.com", "gravatar.loli.net", ...]
