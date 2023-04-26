@@ -19,13 +19,13 @@ flowchart TD
     
 ```
 
-## [1. 无路之路冥想](https://space.bilibili.com/246314854/channel/seriesdetail?sid=2220369)  - 2022年4月
+### [1. 无路之路冥想](https://space.bilibili.com/246314854/channel/seriesdetail?sid=2220369)  - 2022年4月
 
-## [2. 先天虚无太乙金华宗旨](https://space.bilibili.com/246314854/channel/seriesdetail?sid=2463064) - 2022年7月
+### [2. 太乙金华宗旨](https://space.bilibili.com/246314854/channel/seriesdetail?sid=2463064) - 2022年7月
 
-## [3. 八部金刚](https://space.bilibili.com/246314854/channel/collectiondetail?sid=668132) - 2022年8月
+### [3. 动功八部金刚](https://space.bilibili.com/246314854/channel/collectiondetail?sid=668132) - 2022年8月
 以动功说用，引出整体性，调阴阳 ...
 PS: 整体性的概念与这个词，是在做视频过程中突然偶然想到的。
 
-## [4. 西游]()
+### [4. 西游]()
 直接的经验，真实的知识，整体性展开、印证。
