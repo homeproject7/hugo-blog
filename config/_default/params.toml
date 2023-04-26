@@ -417,8 +417,8 @@ disableThemeInject = false
     # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
     mode = "static"
     [page.reward.ways]
-      wechatpay = "/images/wechatpay.png"
-      alipay = "/images/alipay.png"
+      wechatpay = "/images/wechatpay.jpg"
+      alipay = "/images/alipay.jpg"
       # paypal = "/images/paypal.png"
       # bitcoin = "/images/bitcoin.png"
   # FixIt 0.2.0 | CHANGED social share links in post page
